@@ -1,0 +1,38 @@
+[project]
+name = "pycav"
+version = "0.2.0"
+description = "Gaussian beam and cavity propagation and design"
+readme = "README.md"
+authors = [
+    { name = "Martin Saraceno", email = "martin.saraceno@ruhr-uni-bochum.de" }
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+    "scipy>=1.16.3",
+]
+keywords = ["optics", "laser", "gaussian beam", "resonator", "abcd matrix"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.optional-dependencies]
+examples = [
+    "ipympl",
+    "jupyterlab",
+]
+
+[project.urls]
+Repository = "https://github.com/puls-lab/pycav"
+Issues = "https://github.com/puls-lab/pycav/issues"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14"]
+build-backend = "uv_build"

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use pycav in published work, please cite it as below."
+title: "pycav: Gaussian beam and cavity propagation and design"
+type: software
+authors:
+  - family-names: Saraceno
+    given-names: Martin
+    affiliation: Ruhr-Universität Bochum
+version: 0.2.0
+license: GPL-3.0-or-later
+repository-code: "https://github.com/puls-lab/pycav"
+keywords:
+  - optics
+  - laser
+  - gaussian beam
+  - resonator
+  - ABCD matrix

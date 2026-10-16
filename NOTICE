@@ -1,0 +1,35 @@
+pycav - Gaussian beam and cavity propagation and design
+Copyright (C) 2017-2026 Dr. Martin Saraceno
+https://github.com/puls-lab/pycav
+
+pycav is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See the LICENSE file for the full license text.
+
+
+Additional terms (GNU GPL version 3, section 7(b))
+--------------------------------------------------
+
+As permitted by section 7(b) of the GNU General Public License version 3, the
+following additional terms apply to pycav and to all works based on it:
+
+1. All copies and modified versions of pycav, and all works based on pycav that
+   are conveyed to others, must preserve this NOTICE file and the copyright
+   and license notices in the source files.
+
+2. Such works must preserve the author attribution
+
+       "pycav by Dr. Martin Saraceno (https://github.com/puls-lab/pycav)"
+
+   in their documentation, and, where such works display Appropriate Legal
+   Notices, in those notices.
+
+
+Citation request
+----------------
+
+This request is not a condition of the license.
+
+If you use pycav in work that leads to a scientific publication, please cite
+it. Citation metadata is provided in the CITATION.cff file.
