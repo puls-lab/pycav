@@ -1,6 +1,6 @@
 [project]
 name = "pycav"
-version = "0.2.0"
+version = "0.2.1"
 description = "Gaussian beam and cavity propagation and design"
 readme = "README.md"
 authors = [
@@ -32,6 +32,7 @@ examples = [
 [project.urls]
 Repository = "https://github.com/puls-lab/pycav"
 Issues = "https://github.com/puls-lab/pycav/issues"
+DOI = "https://doi.org/10.5281/zenodo.23414448"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14"]

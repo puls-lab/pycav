@@ -218,9 +218,10 @@ class KerrLens(Lens):
     def _update_f(self, **kwargs):
         w = kwargs['w'] if 'w' in kwargs else self._w
         P = kwargs['P'] if 'P' in kwargs else self._P
-        # Next line correct?!? factor 4 or 2?
         if w is not None:
-            self._f = 1 / (8 * self._n2 * self._d * P / np.pi / w**4)
+            # P = 0 gives f = inf, ie. no Kerr lens
+            with np.errstate(divide='ignore'):
+                self._f = 1 / (8 * self._n2 * self._d * P / np.pi / w**4)
         else:
             self._f = np.array([np.inf, np.inf])
         self._update_M()

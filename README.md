@@ -1,5 +1,7 @@
 # pycav
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23414448.svg)](https://doi.org/10.5281/zenodo.23414448)
+
 Gaussian beam and cavity propagation and design.
 
 pycav propagates Gaussian beams through optical systems (spaces, lenses, curved
@@ -70,3 +72,8 @@ exact terms.
 If you use pycav in work that leads to a scientific publication, please cite
 it. Citation metadata is in [CITATION.cff](CITATION.cff); on GitHub, use the
 "Cite this repository" button.
+
+Each release is archived on Zenodo. To cite pycav in general, use the DOI
+[10.5281/zenodo.23414448](https://doi.org/10.5281/zenodo.23414448), which
+always refers to the latest version; the Zenodo page also lists a DOI for
+each individual version.
